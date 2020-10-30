@@ -1,5 +1,5 @@
 @import url('href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Serif:ital@1&family=Playfair+Display:wght@400;600&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -198,7 +198,7 @@ p{
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(images/servicebackground.png);
+    background-image: url(images/pictureofvape.png);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
@@ -287,16 +287,30 @@ p{
     color: white;
 }
 
+#projects .project-info span {
+    color: rgb(245, 36, 78);
+    font-family: 'PT Serif', serif;
+    font-weight: 600;
+}
+
 #projects .project-info h1{
     font-size: 4rem;
-    font-weight: 500;
+    font-weight: 400;
     font-family: 'Lobster', cursive;
 }
 
+#projects .project-info h1:hover{
+    color: rgb(100, 198, 237);
+
+}
+
 #projects .project-info h2{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
+    color: #aaf982;
     font-weight: 500;
     margin-top: 10px;
+   font-family: 'Lobster', cursive;
+
     
 }
 #projects .project-info p{
